@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style_login.css">
+</head>
+	<img src="images/logo.png" alt="Logo" height="150" width="241" style=" width : 315px; height : 141px;"><body>
+	</a>
+	<section class="loginform cf">
+		<!-- <font color="red" size="3px" ><%= request.getAttribute("erro")==null?"":request.getAttribute("erro") %></font> -->
+		<form name="login" action="pages/home.jsp" method="post" accept-charset="utf-8">
+			<ul>
+				<li>
+					<label for="username">Nome</label>
+					<input type="text" name="username" placeholder="Nome Usuário" required>
+				</li>
+				<li>
+					<label for="password">Senha</label>
+					<input type="password" name="password" placeholder="Senha" required></li>
+				<li>
+					<input type="submit" value="Login">
+				</li>
+			</ul>
+		</form>
+	</section>
+</body>
+</html>

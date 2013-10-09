@@ -1,0 +1,11 @@
+body {
+    width: 900px;
+    margin: 40px auto;
+    font-family: 'trebuchet MS', 'Lucida sans', Arial;
+    font-size: 14px;
+    color: #444;
+}
+#chart_div{ 
+	position: relative; 
+	top: 130px; 	
+}

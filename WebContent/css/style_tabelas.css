@@ -1,0 +1,32 @@
+/*Fonte da Pagina das listas*/
+body { font: normal 12px tahoma,arial,serif; }
+
+/*Formatação da tabela*/
+a:link{
+	text-decoration: none; 
+	font-weight: normal;
+}
+a:hover	{font-weight: bold;}
+table{margin: 0px; position: relative; left: 0px}
+
+table,th,td{border-collapse: collapse; width:750px}
+
+th,td{border-bottom: 1px solid #000000;padding: 0px;}
+
+th span{display: block; padding: 3px; text-align:center;}
+
+td span{display: block; padding: 3px; text-align:center;}
+
+#lista th{color: #FFFFFF;background-color: #fd9e06;text-align: left;}
+
+/*Formatação da listra*/
+.listra {background-color:#87CEEB;}
+
+/* Outras formatações: Links, fieldset */ 
+#corpo a {color:#fd6001;}
+#corpo fieldset {width:830px;}
+.left {text-align:left;} /* Esta classe é para o campo descrição da tabela colocar dentro da tag <span>. Show?!*/
+
+/*Formatação do scroll*/
+
+.scroll {overflow: auto;height: 400px;width: 770px;}
